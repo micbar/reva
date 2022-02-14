@@ -13,7 +13,7 @@ require (
 	github.com/aws/aws-sdk-go v1.42.39
 	github.com/beevik/etree v1.1.0
 	github.com/bluele/gcache v0.0.2
-	github.com/c-bata/go-prompt v0.2.5
+	github.com/c-bata/go-prompt v0.2.6
 	github.com/ceph/go-ceph v0.13.0
 	github.com/cheggaaa/pb v1.0.29
 	github.com/coreos/go-oidc v2.2.1+incompatible
