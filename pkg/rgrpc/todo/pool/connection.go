@@ -38,7 +38,7 @@ var (
 // NewConn creates a new connection to a grpc server
 // with open census tracing support.
 // TODO(labkode): make grpc tls configurable.
-func NewConn(address string, opts ...Option) (*grpc.ClientConn, error) {
+func NewConn(address string, opts ...Option) (grpc.ClientConnInterface, error) {
 
 	options := ClientOptions{}
 	if err := options.init(); err != nil {
